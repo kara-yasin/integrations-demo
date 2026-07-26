@@ -41,7 +41,7 @@ Skicka en POST-förfrågan till http://localhost:3000/transform med följande JS
   "city": "Landskrona"
 }
 
-    Förväntat svar:
+- Förväntat svar:
 
     
 {
@@ -50,7 +50,7 @@ Skicka en POST-förfrågan till http://localhost:3000/transform med följande JS
   "location": "Landskrona"
 }
 
-Exempel med curl:
+- Exempel med curl:
 
     
   curl -X POST http://localhost:3000/transform \
