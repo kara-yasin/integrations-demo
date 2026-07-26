@@ -34,7 +34,7 @@ Detta projekt är ett enkelt REST API som tar emot ett JSON-meddelande, transfor
 ## Testa API:et
 Skicka en POST-förfrågan till http://localhost:3000/transform med följande JSON-data:
 
-    ```bash
+    
     {
   "name": "Anna",
   "age": 30,
@@ -43,7 +43,7 @@ Skicka en POST-förfrågan till http://localhost:3000/transform med följande JS
 
     Förväntat svar:
 
-    ```bash 
+    
     {
   "fullName": "Anna",
   "yearsOld": 30,
@@ -52,7 +52,7 @@ Skicka en POST-förfrågan till http://localhost:3000/transform med följande JS
 
     Exempel med curl:
 
-    ```bash
+    
     curl -X POST http://localhost:3000/transform \
   -H "Content-Type: application/json" \
   -d '{"name":"Anna","age":30,"city":"Landskrona"}'
